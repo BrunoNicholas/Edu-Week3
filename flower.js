@@ -28,5 +28,17 @@ var growFlower = function(num=null){
 	}
 	return flower;
 }
+console.log('\n------- logging the object ---------- ');
+console.log(flower);
+console.log('\n------- logging the object keys ---------- ');
+console.log(Object.keys(flower));
+console.log('\n------- logging the object key by index ---------- ');
+console.log(Object.keys(flower)[2]);
+console.log('\n------- logging the object key value ---------- ');
+console.log(getItem('color'));
+console.log('------- changing an object key value ---------- ');
+console.log(changeItem('color','green'));
+console.log('------- removing the object item ---------- ');
 
-console.log(flower)
+console.log('------- growth of the flower ---------- ');
+console.log(growFlower(6));
