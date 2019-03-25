@@ -1,0 +1,1 @@
+const paragraph = document.createElement('p');
