@@ -1,3 +1,3 @@
-# This is the Test Repo 1 on week 3
+# Outbox-EDU Cohort 2: Week 3
 
-As for this repo, only study assignments are here
+## Start of the JQuery Lessons
