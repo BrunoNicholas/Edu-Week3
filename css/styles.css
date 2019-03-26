@@ -1,11 +1,38 @@
-.green-background {
-  background-color: green;
+body {
+  margin: 0px;
+  background-color: lightblue;
 }
-
-.yellow-background {
-  background-color: yellow;
+* {
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
 }
-
-.red-background {
-  background-color: red;
+.wrap {
+    margin-top: 5%;
+    border: thin solid blue;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5px;
+    border-radius: 6px;
+    background: skyblue;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+input[type=text] {
+  width: 100%;
+  font-size: 20px;
+  border: thin solid lightblue;
+  border-radius: 5px;
+  padding: 10px;
+}
+input[type=button], input[type=reset] {
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-size: 18px;
+}
+#equals {
+  width: 45%;
+  padding: 7px;
+  border: thin;
 }

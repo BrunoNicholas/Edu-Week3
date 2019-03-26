@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="wrap">
+        <h2>My Modified Calculator</h2>
+      <form class="" action="index.html" method="post" name="cal">
+        <input type="text" name="display" value="" placeholder="Enter a number">
+        <br><br>
+        <input type="button" name="7" value="7" onclick="cal.display.value+='7'">
+        <input type="button" name="8" value="8" onclick="cal.display.value+='8'">
+        <input type="button" name="9" value="9" onclick="cal.display.value+='9'">
+        <input type="button" name="+" value="+" onclick="cal.display.value+='+'">
+        <br><br>
+        <input type="button" name="4" value="4" onclick="cal.display.value+='4'">
+        <input type="button" name="5" value="5" onclick="cal.display.value+='5'">
+        <input type="button" name="6" value="6" onclick="cal.display.value+='6'">
+        <input type="button" name="-" value="-" onclick="cal.display.value+='-'">
+        <br><br>
+        <input type="button" name="1" value="1" onclick="cal.display.value+='1'">
+        <input type="button" name="2" value="2" onclick="cal.display.value+='2'">
+        <input type="button" name="3" value="3" onclick="cal.display.value+='3'">
+        <input type="button" name="*" value="x" onclick="cal.display.value+='*'">
+        <br><br>
+        <input type="button" name="0" value="0" onclick="cal.display.value+='0'">
+        <input type="button" name="/" value="/" onclick="cal.display.value+='/'">
+        <input type="button" name="%" value="%" onclick="cal.display.value+='%'">
+        <input type="reset" name="reset" value="C" onclick="return confirm('Do you want to clear all?')">
+        <br><br>
+        <input type="button" id="equals" name="=" value="=" onclick="cal.display.value=eval(cal.display.value)">
+        <br><br>
+      </form>
+    </div>
+    <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="js/calc.js" type="text/javascript"></script>
+  </body>
+</html>
