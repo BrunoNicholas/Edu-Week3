@@ -18,7 +18,7 @@ $(document).ready(function(){
 	  	})*/
 	});
 	$("[type = 'button']").mousedown(function(){
-	  	alert("Oh Noooo... ..Bye! \nPress ESC");
+	  	//
 	});
 	$("[type = 'button']").click(function(){
 	    $(this).hide("slow");
